@@ -13,7 +13,29 @@
 .posters::-webkit-scrollbar{
     display: none;
 }
-.posters img{
+.poster{
     max-height: 250px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.small-poster{
+    max-height: 150px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.poster:hover{
+    transform: scale(1.09);
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.small-poster:hover{
+    /* max-height: 180px; */
+    margin-left: 15px;
+    margin-right: 20px;
+    transform: scale(1.09);
+
 }

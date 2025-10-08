@@ -1,5 +1,4 @@
 .banner{
-    background-image: url('https://wallpaperaccess.com/full/2703652.png');
     background-size: cover;
     height: 448px;
     color: white;
@@ -38,6 +37,7 @@ button:hover{
     font-size: 1rem;
     height: 80px;
     max-width: 360px;
+    /* margin-bottom: 100px; */
 }
 .fade-bottom{
     height: 7.4rem;
