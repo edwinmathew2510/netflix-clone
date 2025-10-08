@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import NavBar from './componets/NavBar/NavBar'
 import Banner from './componets/Banner/Banner'
-import Rowpost from './componets/RowPost/Rowpost'
+import Rowpost from './componets/RowPost/RowPost'
 import { action, comedyMovies, Documentaries, HorrorMovies, originals, RomanceMovies, trending } from './constants/url'
 
 
