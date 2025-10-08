@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import "./Banner.css";
 import { API_KEY, imageUrl } from '../../constants/constant';
-import axios from '../../axios'
+import axios from '../../constants/axios'
 
 
 
